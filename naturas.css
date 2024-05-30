@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header section begin*/
+header .header_img {
+    float: left;
+    width: 60%;
+}
+
+header .main-navigation {
+    float: left;
+    width: 40%;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+ li:last-child {
+    border: 1px solid red;
+    background-color: red;
+
+    display: inline-block;
+
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+li:last-child a{
+    color: white;
+} 
+
+.main1{
+    display: inline;
+}
+/* header section end*/
+
+/* Main Section - Part 1 */
+.part1 .part1_img {
+    text-align: center;
+}
+
+.part1 .part1_data {
+    text-align: center;
+}
+.part1_data {
+    position: absolute;
+    top: 20%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.main .part1_cont {
+    text-align: center;
+}
+
+.main .part1_para {
+    text-align: center;
+}
+
+.main .part1_button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.part1 .part1_button a {
+    display: inline-block;
+    background-color: white;
+    color: red;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Main section part1 end */
+
+/* Main Section - Part 2 begin*/
+.part2 .part2_left {
+    float: left;
+    width: 30%;
+}
+
+.part2 .part2_left .part2_data h2 {
+    color: red;
+}
+
+.part2 .part2_left .part2_button a {
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.part2 .part2_left {
+    margin-top: 30px;
+}
+
+.part2_right .pic3_tomato img{
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+/* main part2 end */
+
+/* main part3 begin */
+
+.part3 .part3_data .part3_head {
+    text-align: center;
+}
+
+.part3 .part3_data .part3_head h2 {
+    color: red;
+}
+
+.part3_img {
+    margin-left: 2%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.part3_img .part3_img1 {
+    width: 45%;
+    box-sizing: border-box;
+    float: left;
+    padding: 20px 5px 20px 5px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.part3_img .part3_img2 {
+    width: 45%;
+    box-sizing: border-box;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.part3_img .part3_img2 {
+    margin-left: -2px;
+}
+
+.part3_img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.part3_img h2 {
+    margin: 10px;
+}
+
+.part3_img a {
+    margin: 10px;
+}
+
+.part3_img a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+/* part3 completed */
+
+/* part4 begin */
+.part4_imgs {
+    overflow: hidden; /* Clear floats */
+}
+
+.part4_img1,
+.part4_img2,
+.part4_img3 {
+    width: calc(33.33% - 20px);
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.part4_img1 h2,
+.part4_img2 h2,
+.part4_img3 h2 {
+    margin: 10px 0;
+    text-align: center;
+    color: red;
+}
+
+.part4_img1 p,
+.part4_img2 p,
+.part4_img3 p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.part4_img1 a,
+.part4_img2 a,
+.part4_img3 a {
+    display: block;
+    padding: 5px 10px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main_vm_inPart4 a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.main_vm_inPart4 {
+    width: 8%;
+    margin: 0 auto; 
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/* part4 completed */
+
+/* part5 begin */
+
+.part5 .part5_cont {
+    width: 20%;
+}
+
+.part5_cont .part5_main_cont h2 {
+    color: red;
+}
+
+.part5_cont .part5_vm a {
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.parent::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.parent .event {
+    width: 32.33%;
+    float: left;
+    margin-bottom: 14px;
+}
+
+.event h2 {
+    color: red;
+}
+
+.part5_img1 h4 {
+    color: red;
+}
+
+.parent .event .part5_vm a {
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.event1 {
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.part6 {
+    margin-top: 2%;
+}
+
+.event img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.part5_img1 {
+    text-align: justify;
+    padding: 0px 40px 20px 40px;
+
+}
+
+/* part6 begin */
+
+
+
+.part6_head h2 {
+    margin-left: 30%;
+    color: red;
+    font-size: xx-large;
+    width: 40%;
+    text-align: center;
+}
+
+.part6_head p {
+    width: 35%;
+    margin-left: 32%;
+
+    text-align: center;
+    font-size: larger;
+}
+
+.part6_img1 {
+    width: 25%;
+    float: left;
+
+}
+
+.part6_img1 img {
+    width: 98%;
+}
+.footer_p1::after {
+    content: "";
+    clear: both;
+    display: block;
+    
+}
+.part6::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.color{
+    background-color: rgb(246, 229, 205);
+    
+}
+.footer_p1 .img_f1{
+    width: 30%;
+    float: left;
+    margin-top: 4%;
+}
+
+.footer_p1 .footer{
+    width: 60%;
+    float: left;
+    margin-top: 4%;
+}
+.footer{
+    width: 100%;
+}
+.part{
+    float:left;
+    width: 25%;
+}
+.part a {
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    color: #2d0001;
+    border-bottom: 1px solid #998b7c;
+}
+
+.footer .last a{
+    color: black;
+}
+
+.img_f1 {
+    margin-left: 10%;
+}
+
+.footer_p2{
+    background-color: red;
+}
+.unilever_img h2{
+    color: white;
+    padding-bottom: 30px;
+}
+
+.unilever_img{
+    text-align: center;
+    /* clear: both; */
+}
+
